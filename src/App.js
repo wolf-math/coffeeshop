@@ -11,10 +11,12 @@ function App() {
   return (
     <div className="App">
       <Switch>
-            <Route exact path='/' component={homepage} />
-            <Route path='/contact' component={contact} />
-            <Route path='/about' component={about} />
-          </Switch>
+        <Route exact path='/' component={homepage} />
+        <Route path='/about' component={about} />
+        <Route path='/contact' component={contact} />
+      </Switch>
+
+      <h1>This is app.js</h1>
     </div>
   );
 }
