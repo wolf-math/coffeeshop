@@ -1,8 +1,8 @@
 .home {
-    // background-color: red;
+    // width: 100vw;
     margin: 0;
-    padding: 20px;
     background-color: #1B100C;
+    height: 100vh;
 }
 
 
@@ -16,8 +16,12 @@
     .hero-text{
         color: burlywood;
         text-shadow: 2px 2px 2px grey;
-        text-align: center;
-
+        padding-left: 50px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
 
         h1 {
             font-size: 72pt;
@@ -29,6 +33,10 @@
             font-size: 48pt;
             margin-top: 0;
             padding-top:0;
+        }
+
+        .bummer {
+            background: green;
         }
     }
 
