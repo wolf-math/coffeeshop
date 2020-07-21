@@ -11,10 +11,10 @@
     padding: 20px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/beans.jpg);
 
-    height: 75vh;
+    height: 100vh;
 
     .hero-text{
-        color: burlywood;
+        color: #deb887;
         text-shadow: 2px 2px 2px grey;
         padding-left: 50px;
         margin: 0;
@@ -23,22 +23,21 @@
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
 
+        #main-logo {
+            height: 250px;
+            width: auto;
+        }
+
         h1 {
             font-size: 72pt;
-            margin-bottom: 0;
-            padding-bottom: 0;
+            margin: 0;
+            padding: 0;
         }
 
         h3 {
             font-size: 48pt;
-            margin-top: 0;
-            padding-top:0;
-        }
-
-        .bummer {
-            background: green;
+            margin: 0;
+            padding:0;
         }
     }
-
-
 }
