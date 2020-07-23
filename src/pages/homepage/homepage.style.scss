@@ -9,14 +9,14 @@
 .hero {
     margin: 0;
     padding: 20px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/pur-over.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../assets/pur-over.jpg);
     background-size: cover;
 
     height: 100vh;
 
     .hero-text{
         color: #deb887;
-        text-shadow: 2px 2px 2px grey;
+        text-shadow: 2px 0px 3px grey;
         padding-left: 50px;
         margin: 0;
         position: absolute;
@@ -27,7 +27,7 @@
         #main-logo {
             height: 250px;
             width: auto;
-            filter: drop-shadow(2px 2px 2px grey);
+            filter: drop-shadow(2px 2px 3px grey);
         }
 
         h1 {
@@ -43,3 +43,23 @@
         }
     }
 }
+
+.blurb1, .blurb2 {
+    height: 50vh;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+    .cup, .mugs {
+        height: 100%;
+        width: auto;
+    }
+
+    .blurb1-text, .blurb2-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
