@@ -44,13 +44,18 @@
     }
 }
 
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .blurb1, .blurb2 {
     height: 50vh;
     display: flex;
     text-align: center;
     justify-content: space-between;
 
-    .cup, .mugs {
+    .blurb-pic {
         height: 100%;
         width: auto;
     }
