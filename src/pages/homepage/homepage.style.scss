@@ -49,14 +49,15 @@
     margin: 0 auto;
 }
 
-.blurb1, .blurb2 {
-    height: 50vh;
+.blurb {
+    height: 30vh;
     display: flex;
     text-align: center;
     justify-content: space-between;
+    align-items: center;
 
     .blurb-pic {
-        height: 100%;
+        height: 90%;
         width: auto;
     }
 
