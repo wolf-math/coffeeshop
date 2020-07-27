@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 // import { FaInstagram } from 'react-icons/fa';
 
+import './footer.style.scss';
+
 const Footer = () => (
     <div className="footer">
         <div className="contact">
@@ -9,10 +11,11 @@ const Footer = () => (
                 <p>666 Devil's Parkway</p>
                 <p>Raanana, Israel</p>
             </div>
-            <p>Phone: 666-666-6666</p>
-            <p>email: Lucifer@Hell.com</p>
+            <p>Phone: 055-5555555</p>
+            <p>email: Lucifer@Heck.com</p>
         </div>
         <div className="menu">
+            
             <Link className='option' to='/'>
                 home
             </Link>

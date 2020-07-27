@@ -1,0 +1,25 @@
+.footer {
+    height: 160px;
+
+    background-color: #1B100C;
+    color: #deb887;
+
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+
+    .option {
+        color: #deb887;
+        text-decoration: none;
+        font-family: Raleway;
+    }
+}
+
+.contact {
+    
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}

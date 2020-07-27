@@ -11,7 +11,7 @@ const homepage = () => (
         <div className="hero">
             <div className="hero-text">
                 <img id='main-logo' src={logo} alt="logo" />
-                <h1>Caya</h1>
+                <h1>CAYA</h1>
                 <h3>Specialty Coffee and Tea</h3>
             </div>
         </div>
@@ -19,17 +19,16 @@ const homepage = () => (
             <div className="blurb blurb1">
                 <img className="blurb-pic" src={cup} alt="cup" />
                 <div className="blurb1-text">
-                    <h3>A little about us</h3>
+                    <h2>A little about us</h2>
                     <p>We like tasty snacks, not vegtables!</p>
                     <Link className='option' to='about'>Learn More</Link>
                 </div>
             </div>
             <div className="blurb blurb2">
                 <div className="blurb2-text">
-                    <h1>Our coffee is better than yours</h1>
+                    <h2>Our coffee is better than yours</h2>
                     <p>Taste it to belive it</p>
                     <Link className='option' to='about'>Learn More</Link>
-
                 </div>
                 <img className="blurb-pic" src={mugs} alt="mugs" />
             </div>
