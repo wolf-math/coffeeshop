@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import { FaInstagram } from 'react-icons/fa';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram } from '@fortawesome/free-solid-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core'
+
+
 
 import './footer.style.scss';
 
@@ -30,7 +34,7 @@ const Footer = () => (
             </Link>
         </div>
         <div className="follow">
-            {/* <FaInstagram className="icon" /> */}
+            <FontAwesomeIcon icon={faInstagram} />
         </div>
     </div>
 )
