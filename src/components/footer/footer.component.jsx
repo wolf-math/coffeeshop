@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram } from '@fortawesome/free-solid-svg-icons'
-import { library } from '@fortawesome/fontawesome-svg-core'
-
-
 
 import './footer.style.scss';
 
+import {FaTwitter, FaInstagramSquare, FaInstagram, FaFacebook} from 'react-icons/fa';
+
+
 const Footer = () => (
+    <>
+    <div class="push"></div>
     <div className="footer">
         <div className="contact">
             <div className="address">
@@ -34,9 +34,13 @@ const Footer = () => (
             </Link>
         </div>
         <div className="follow">
-            <FontAwesomeIcon icon={faInstagram} />
+            <FaInstagram />
+            <FaInstagramSquare />
+            <FaTwitter />
+            <FaFacebook />
         </div>
     </div>
+    </>
 )
 
 export default Footer;
