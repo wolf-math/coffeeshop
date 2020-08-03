@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './homepage.style.scss';
-import logo from '../../assets/hero-logo.png';
+import logo from '../../assets/hero-logo_white.png';
 import cup from '../../assets/cup.jpg';
 import mugs from '../../assets/mugs.jpg';
 

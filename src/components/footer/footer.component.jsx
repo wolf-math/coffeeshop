@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './footer.style.scss';
 
-import {FaTwitter, FaInstagramSquare, FaInstagram, FaFacebook} from 'react-icons/fa';
+import { FaInstagram, FaFacebook} from 'react-icons/fa';
 
 
 const Footer = () => (
@@ -34,10 +34,8 @@ const Footer = () => (
             </Link>
         </div>
         <div className="follow">
-            <FaInstagram />
-            <FaInstagramSquare />
-            <FaTwitter />
-            <FaFacebook />
+            <div className="social"><FaInstagram /> caya_coffee</div>
+            <div className="social"><FaFacebook /> cayacoffee.co </div>
         </div>
     </div>
     </>

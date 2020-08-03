@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './navbar.style.scss';
 // import logo from '../../assets/hero-logo.png';
-import logo from '../../assets/horizontal_logo_cream.png';
+import logo from '../../assets/horizontal_logo_white.png';
 
 const Navbar = () => (
     <div className="navbar">
@@ -18,7 +18,7 @@ const Navbar = () => (
                 home
             </Link>
             <Link className='option' to='drinks'>
-                our drinks
+                menu
             </Link>
             <Link className='option' to='about'>
                 about
