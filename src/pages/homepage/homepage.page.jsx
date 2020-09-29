@@ -27,7 +27,7 @@ const homepage = () => (
             <div className="blurb blurb2">
                 <div className="blurb2-text">
                     <h2>Our coffee is better than yours</h2>
-                    <p>Taste it to belive it</p>
+                    <p>Taste it to belive it!</p>
                     <Link className='option' to='about'>Learn More</Link>
                 </div>
                 <img className="blurb-pic" src={mugs} alt="mugs" />
