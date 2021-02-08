@@ -19,6 +19,9 @@
     }
 
     .social {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
         font-family: Mulish;
         padding: 10px;
     }

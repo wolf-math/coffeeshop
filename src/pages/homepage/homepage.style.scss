@@ -10,7 +10,7 @@
 .hero {
     margin: 0;
     padding: 20px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../assets/pur-over.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../assets/caya-counter.jpg);
     background-size: cover;
 
     height: 100vh;
@@ -49,6 +49,7 @@
 .content {
     max-width: 1000px;
     margin: 0 auto;
+    
 }
 
 .blurb {
@@ -57,6 +58,7 @@
     text-align: center;
     justify-content: space-between;
     align-items: center;
+    
 
     .blurb-pic {
         height: 90%;
@@ -68,6 +70,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 15px;
+        
     }
 }
 

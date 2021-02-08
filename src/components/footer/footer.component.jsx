@@ -12,14 +12,13 @@ const Footer = () => (
     <div className="footer">
         <div className="contact">
             <div className="address">
-                <p>666 Devil's Parkway</p>
+                <p>Borochov 5</p>
                 <p>Raanana, Israel</p>
             </div>
-            <p>Phone: 055-5555555</p>
-            <p>email: Lucifer@Heck.com</p>
+            <p>Phone: 058-678-8322</p>
+            {/* <p>email: Lucifer@Heck.com</p> */}
         </div>
         <div className="menu">
-            
             <Link className='option' to='/'>
                 home
             </Link>
@@ -34,8 +33,8 @@ const Footer = () => (
             </Link>
         </div>
         <div className="follow">
-            <div className="social"><FaInstagram /> caya_coffee</div>
-            <div className="social"><FaFacebook /> cayacoffee.co </div>
+            <div className="social"><a href="https://www.facebook.com/cayacoffee.co/"><FaFacebook /> cayacoffee</a></div>
+            <div className="social"><a href="https://www.instagram.com/caya_coffee/"><FaInstagram /> caya_coffee</a></div>
         </div>
     </div>
     </>
