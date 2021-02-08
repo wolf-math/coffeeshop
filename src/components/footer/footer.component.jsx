@@ -22,11 +22,11 @@ const Footer = () => (
             <Link className='option' to='/'>
                 home
             </Link>
-            <Link className='option' to='drinks'>
-                our drinks
-            </Link>
             <Link className='option' to='about'>
                 about
+            </Link>
+            <Link className='option' to='drinks'>
+                menu
             </Link>
             <Link className='option' to='contact'>
                 contact

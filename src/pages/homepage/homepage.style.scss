@@ -12,7 +12,7 @@
     padding: 20px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../assets/caya-counter.jpg);
     background-size: cover;
-
+    
     height: 100vh;
 
     .hero-text{
@@ -34,6 +34,7 @@
 
         h1 {
             font-size: 72pt;
+            text-align: left;
             margin: 0;
             padding: 0;
         }

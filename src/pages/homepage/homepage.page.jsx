@@ -4,9 +4,9 @@ import Fade from 'react-reveal/Fade';
 
 import './homepage.style.scss';
 import logo from '../../assets/hero-logo_white.png';
-import mugs from '../../assets/mugs.jpg';
 import pastries from '../../assets/pastries.jpg';
 import beanLogo from '../../assets/bean-logo.jpg';
+import koppi from '../../assets/koppi&coldbrew.jpg'
 
 const homepage = () => (
     <div className="home">
@@ -38,7 +38,7 @@ const homepage = () => (
                     <p>Our teas include this beautiful tricolore tea, from Postcard Teas. Come in for a hot cup of tea on a rainy day.</p>
                     <Link className='option' to='about'>Learn More</Link>
                 </div>
-                <img className="blurb-pic" src={mugs} alt="mugs" />
+                <img className="blurb-pic" src={koppi} alt="mugs" />
             </div>
             </Fade>
             <Fade>

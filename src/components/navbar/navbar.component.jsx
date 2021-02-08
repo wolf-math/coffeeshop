@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './navbar.style.scss';
-// import logo from '../../assets/hero-logo.png';
 import logo from '../../assets/horizontal_logo_white.png';
 
 const Navbar = () => (
