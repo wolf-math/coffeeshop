@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 import './footer.style.scss';
 
 import { FaInstagram, FaFacebook} from 'react-icons/fa';
@@ -8,7 +9,6 @@ import { FaInstagram, FaFacebook} from 'react-icons/fa';
 
 const Footer = () => (
     <>
-    <div class="push"></div>
     <div className="footer">
         <div className="contact">
             <div className="address">

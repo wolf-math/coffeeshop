@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+// import {Navbar as Nav } from 'react-bootstrap'
 
 import './navbar.style.scss';
-import logo from '../../assets/horizontal_logo_white.png';
+import logo from '../../assets/horizontal_logo_brown.png';
 
 const Navbar = () => (
     <div className="navbar">
         <div className="nav-logo">
-            <Link className='option' to='/'>
+            <Link to='/'>
                 <img id="nav-logo" src={logo} alt=""/>
             </Link>
         </div>

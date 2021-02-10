@@ -8,12 +8,11 @@
     top: 0;
     position: fixed;
     font-family: Mulish;
+    transition: 2s background-color cubic-bezier(0.25, 0.45, 0.45, 0.95);
 
-    background: linear-gradient(
-        to bottom,
-        #1b100c,
-        transparent
-    );
+    &:hover{
+        background-color: rgba(222, 184, 135, .5);
+    }
 
     .options {
         padding-right: 20px;
@@ -22,12 +21,12 @@
     .option {
         padding: 15px;
         text-decoration: none;
-        // color: #deb887;
-        color: white;
+        color: #1b100c;
+
     }
 
     #nav-logo {
         height: 30px;
-        
+        padding: 15px;
     }
 }
