@@ -10,7 +10,7 @@ import { FaInstagram, FaFacebook} from 'react-icons/fa';
 const Footer = () => (
     <>
     <div className="footer">
-        <div className="contact">
+        <div className="add">
             <div className="address">
                 <p>Borochov 5</p>
                 <p>Raanana, Israel</p>

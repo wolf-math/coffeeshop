@@ -1,0 +1,17 @@
+.contact {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    .locations {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .location {
+            border: 1px grey solid;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 4px;
+        }
+    }
+}
