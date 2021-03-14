@@ -16,16 +16,18 @@ const Footer = () => (
                 <p>Raanana, Israel</p>
             </div>
             <p>Phone: 058-678-8322</p>
-            {/* <p>email: Lucifer@Heck.com</p> */}
         </div>
         <div className="menu">
             <Link className='option' to='/'>
                 home
             </Link>
-            <Link className='option' to='about'>
+            <Link className='option' to='/about'>
                 about
             </Link>
-            <Link className='option' to='drinks'>
+            <Link className='option' to='/drinks'>
+                drinks
+            </Link>
+            <Link className='option' to='/menu'>
                 menu
             </Link>
             <Link className='option' to='contact'>

@@ -36,7 +36,7 @@ const homepage = () => (
                     <h2>Our coffee and Tea</h2>
                     <p>We offer the finest of Koppi's coffee beans. </p>
                     <p>Our teas include this beautiful tricolore tea, from Postcard Teas. Come in for a hot cup of tea on a rainy day.</p>
-                    <Link className='option' to='about'>Learn More</Link>
+                    <Link className='option' to='drinks'>Learn More</Link>
                 </div>
                 <img className="blurb-pic" src={koppi} alt="mugs" />
             </div>
@@ -47,7 +47,7 @@ const homepage = () => (
                 <div className="blurb1-text">
                     <h2>Sandwiches and Patries</h2>
                     <p>Fresh sandwiches ready for you, from the Caya kitchen on freshly baked pastries and rolls from Zak's. </p>
-                    <Link className='option' to='about'>Learn More</Link>
+                    <Link className='option' to='menu'>Learn More</Link>
                 </div>
             </div>
             </Fade>
