@@ -10,6 +10,7 @@ const contact = () => (
     <div className="contact">
         <h1>Contact us</h1>
         <h2>Stop in for an order or send us a WhatsApp</h2>
+        <img src={location} alt="location" className="map"/>
         <div className="locations">
             <a href="https://www.google.com/maps/place/Borokhov+St+5,+Ra'anana/@32.180789,34.8739767,17z/data=!3m1!4b1!4m5!3m4!1s0x151d38132a907827:0x26d1806ec58e3d19!8m2!3d32.180789!4d34.8761654">
             <div className="physaddress location">

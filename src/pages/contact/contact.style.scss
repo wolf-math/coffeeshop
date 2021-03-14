@@ -2,6 +2,10 @@
     max-width: 1000px;
     margin: 0 auto;
 
+    .map {
+        width: 100%;
+    }
+
     .locations {
         display: flex;
         flex-direction: row;
