@@ -1,10 +1,24 @@
 import React from 'react';
+import styled from 'styled-components';
 
 import location from '../../assets/cayaLocation.png'
 import './contact.style.scss';
 import {Form, Button } from 'react-bootstrap';
 
 import {FaMapMarkerAlt, FaWhatsapp} from 'react-icons/fa';
+
+const StyledForm = styled.div` 
+    .contact{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+
+        input, textarea {
+            margin: 5px;
+            padding: 5px;
+        }
+    };
+`;
 
 const contact = () => (
     <div className="contact">
@@ -23,21 +37,15 @@ const contact = () => (
             </div>
             </a>
         </div>
-      <Form  className="col-8 mx-auto">
-            <Form.Group controlId="emailForm.name">
-                <Form.Control type="text" placeholder="name" name="name" />
-            </Form.Group>
-            <Form.Group controlId="emailForm.email">
-                <Form.Control type="email" placeholder="email" name="email" />
-            </Form.Group>
-            <Form.Group controlId="emailForm.subject">
-                <Form.Control type="text" placeholder="subject" name="subject" />
-            </Form.Group>
-            <Form.Group controlId="emailForm.message">
-                <Form.Control as="textarea" rows={5} palceholder="message" name="message" />
-            </Form.Group>
+        <StyledForm>
+      <form className="contact">
+                <input type="text" placeholder="name" name="name" />
+                <input type="email" placeholder="email" name="email" />
+                <input type="text" placeholder="subject" name="subject" />
+                <textarea rows="5" palceholder="message" name="message" />
             <Button as="input" type="submit" value="Send" variant="secondary" block />
-        </Form>  
+        </form>  
+        </StyledForm>
     </div>
 )
 

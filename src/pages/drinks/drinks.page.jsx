@@ -4,7 +4,6 @@ import './drinks.style.scss';
 import cups from '../../assets/cups.jpg'
 
 import pastries from '../../assets/pastries.jpg';
-import beanLogo from '../../assets/bean-logo.jpg';
 import koppi from '../../assets/koppi&coldbrew.jpg'
 
 const drinks = () => (
