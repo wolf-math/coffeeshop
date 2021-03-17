@@ -11,7 +11,8 @@ const StyledForm = styled.div`
     .contact{
         display: flex;
         flex-direction: column;
-        margin: 20px;
+        margin: 20px auto;
+        width: 50%;
 
         input, textarea {
             margin: 5px;

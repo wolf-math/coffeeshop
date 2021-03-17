@@ -59,11 +59,15 @@
     text-align: center;
     justify-content: space-between;
     align-items: center;
+    margin: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     
 
     .blurb-pic {
-        height: 90%;
-        width: auto;
+        height: 100%;
+        width: 30vh;
+        object-fit:cover;
+
     }
 
     .blurb1-text, .blurb2-text {
