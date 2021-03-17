@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import location from '../../assets/cayaLocation.png'
 import './contact.style.scss';
-import {Form, Button } from 'react-bootstrap';
+import emailjs from 'emailjs-com';
 
 import {FaMapMarkerAlt, FaWhatsapp} from 'react-icons/fa';
 
@@ -20,6 +20,18 @@ const StyledForm = styled.div`
         }
     };
 `;
+
+function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_6c6yjf6', 'template_lebus0m', e.target, 'user_PN787ZbGoN9scOEwOAcQP')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      alert("Message Sent")
+  }
 
 const contact = () => (
     <div className="contact">
@@ -38,13 +50,15 @@ const contact = () => (
             </div>
             </a>
         </div>
-        <StyledForm>
-      <form className="contact">
+
+    
+      <StyledForm>
+      <form className="contact" onSubmit={sendEmail}>
                 <input type="text" placeholder="name" name="name" />
                 <input type="email" placeholder="email" name="email" />
                 <input type="text" placeholder="subject" name="subject" />
                 <textarea rows="5" palceholder="message" name="message" />
-            <Button as="input" type="submit" value="Send" variant="secondary" block />
+            <input type="submit" value="send" />
         </form>  
         </StyledForm>
     </div>

@@ -7,6 +7,7 @@ import homepage from './pages/homepage/homepage.page';
 import drinks from './pages/drinks/drinks.page';
 import Navbar from './components/navbar/navbar.component';
 import Footer from './components/footer/footer.component';
+import menu from './pages/menu/menu.page';
 
 import './App.css';
 
@@ -20,6 +21,7 @@ function App() {
           <Route path='/about' component={about} />
           <Route path='/contact' component={contact} />
           <Route path='/drinks' component={drinks} />
+          <Route path='/menu' component={menu} />
         </Switch>
       </div>
       <Footer />
