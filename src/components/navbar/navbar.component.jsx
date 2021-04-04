@@ -15,7 +15,7 @@ const Navbar = () => {
     }
 
     const menu = (
-        <div onClick={toggle}>
+        <div onClick={toggle} className="nav-menu">
             <Fade><a className='option' href='/'>home</a></Fade>
             <Fade><a className='option' href='about'>about</a></Fade>
             <Fade><a className='option' href='drinks'>drinks</a></Fade>

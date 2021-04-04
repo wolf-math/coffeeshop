@@ -1,48 +1,81 @@
 .nav {
-    display: flex;
-    height: 50px;
-    align-items: center;
-    z-index: 150;
-    top: 0;
-    position: fixed;
-    font-family: Mulish;
-    // transition: ease-in-out 1s;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  z-index: 150;
+  top: 0;
+  position: fixed;
+  font-family: Mulish;
+  // transition: ease-in-out 1s;
 
-    .menu {
-        margin: 20px;
-        color: white;
-        font-size: xx-large;
-        filter: drop-shadow(2px 2px 6px black);
-    }
+  .menu {
+    margin: 20px;
+    color: white;
+    font-size: xx-large;
+    filter: drop-shadow(2px 2px 6px black);
+  }
 }
 
 .nav-click {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  z-index: 150;
+  top: 0;
+  position: fixed;
+  font-family: Mulish;
+  background-color: white;
+
+  .menu {
+    margin: 20px;
+    color: black;
+    font-size: xx-large;
+  }
+
+  .option {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+
+    &:hover {
+      color: white;
+      background-color: black;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-click {
     display: flex;
+    flex-direction: column;
     height: 50px;
     align-items: center;
     z-index: 150;
     top: 0;
     position: fixed;
     font-family: Mulish;
-    background-color: white;
-    // transition: ease-in-out 1s;
+    background-color: #1b100c;
 
     .menu {
-        margin: 20px;
-        color: black;
-        font-size: xx-large;
+      margin: 20px;
+      color: white;
+      font-size: xx-large;
+    }
+
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      text-align: center;
+      filter: drop-shadow(2px 2px 6px black);
     }
 
     .option {
-        padding: 15px;
-        text-decoration: none;
-        color: black;
-        background-color: white;
-
-        &:hover {
-            color: white;
-            background-color: black;
-        }
-
+      padding: 15px;
+      text-decoration: none;
+      color: #deb887;
+      background-color: #1b100c;
     }
+  }
 }
